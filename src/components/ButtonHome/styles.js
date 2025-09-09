@@ -9,7 +9,7 @@ export const StyledButton = styled.a`
   border-radius: 15px;
   font-size: 18px;
   font-family: 'Source Code Pro';
-  font-weight: 600;
+  font-weight: 500;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 
