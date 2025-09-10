@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import {
   HomeContainer, Greeting, Name, Title, ButtonContainer,
 } from './styles';
@@ -8,9 +10,9 @@ import resumeIcon from '../../assets/images/icons/resume-icon.svg';
 
 import Button from '../../components/ButtonHome';
 
-function Home() {
+function Home({ id }) {
   return (
-    <HomeContainer>
+    <HomeContainer id={id}>
 
       <Container>
         <Greeting>Olá, meu nome é</Greeting>
@@ -30,5 +32,9 @@ function Home() {
     </HomeContainer>
   );
 }
+
+Home.propTypes = {
+  id: PropTypes.string.isRequired,
+};
 
 export default Home;

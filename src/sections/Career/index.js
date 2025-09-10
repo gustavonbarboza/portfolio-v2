@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import PropTypes from 'prop-types';
 
 import {
   CareerSection,
@@ -15,7 +16,7 @@ import JobDetails from '../../components/JobDetails';
 import ExperienceCard from '../../components/ExperienceCard';
 import { careerExperiences } from '../../data/careerData';
 
-function Career() {
+function Career({ id }) {
   const defaultActiveExperience = careerExperiences.find((exp) => exp.active);
 
   const [activeExperience, setActiveExperience] = useState(
@@ -27,7 +28,7 @@ function Career() {
   };
 
   return (
-    <CareerSection>
+    <CareerSection id={id}>
       <Container>
 
         <SectionTitle>Carreira</SectionTitle>
@@ -65,5 +66,9 @@ function Career() {
     </CareerSection>
   );
 }
+
+Career.propTypes = {
+  id: PropTypes.string.isRequired,
+};
 
 export default Career;

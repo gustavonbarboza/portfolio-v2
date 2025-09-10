@@ -8,6 +8,10 @@ export default createGlobalStyle`
     font-family: 'Montserrat', sans-serif;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     background: ${({ theme }) => theme.background};
     font-size: 16px;
