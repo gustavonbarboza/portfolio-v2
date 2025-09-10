@@ -12,7 +12,10 @@ export default {
     highlight: '#FFFFFF',
   },
   primaryVariants: {
-    transparent: 'rgba(90, 224, 196, 0.1)',
-    transparentPrimary: 'rgba(90, 224, 195, 0.5)',
+    transparent05: 'rgba(90, 224, 196, 0.5)',
+    transparent04: 'rgba(90, 224, 196, 0.4)',
+    transparent03: 'rgba(90, 224, 196, 0.3)',
+    transparent02: 'rgba(90, 224, 196, 0.2)',
+    transparent01: 'rgba(90, 224, 196, 0.1)',
   },
 };

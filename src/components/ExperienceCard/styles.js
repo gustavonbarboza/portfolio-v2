@@ -12,7 +12,7 @@ export const CardButton = styled.button`
   transition: all 0.3s ease-in-out;
 
   ${({ active, theme }) => active && `
-    background-color: rgba(90, 224, 195, 0.2);
+    background-color: ${theme.primaryVariants.transparent02};
     border-left-color: ${theme.primary};
   `}
 `;

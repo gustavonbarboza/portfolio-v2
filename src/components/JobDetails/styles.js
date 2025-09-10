@@ -38,7 +38,7 @@ export const Skills = styled.div`
 `;
 
 export const SkillTag = styled.span`
-  background-color: ${({ theme }) => theme.primaryVariants.transparentPrimary};
+  background-color: ${({ theme }) => theme.primaryVariants.transparent05};
   color: ${({ theme }) => theme.text.light};
   border-radius: 20px;
   padding: 10px 20px;
