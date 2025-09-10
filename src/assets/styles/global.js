@@ -15,6 +15,7 @@ export default createGlobalStyle`
   body {
     background: ${({ theme }) => theme.background};
     font-size: 16px;
+    margin: 0;
   }
 
   button {
