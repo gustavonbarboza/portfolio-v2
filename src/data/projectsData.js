@@ -14,8 +14,8 @@ export const projectsData = [
     details: 'Este projeto é uma versão personalizada do DevLinks, um agregador de links para usar como cartão de visitas online, desenvolvido com tecnologias WEB e promovido pela Rocketseat.',
     image: linktreeImage,
     links: [
-      { type: 'repositorio', url: 'https://github.com/gustavonbarboza/Projeto-Linktree' },
       { type: 'demostracao', url: 'https://gustavonbarboza.github.io/Projeto-Linktree/' },
+      { type: 'repositorio', url: 'https://github.com/gustavonbarboza/Projeto-Linktree' },
     ],
   },
   {
@@ -25,8 +25,8 @@ export const projectsData = [
     details: 'Esse projeto desenvolvido no NLW da Rocketseat, focado em criar uma plataforma de coleta de resíduos. Utilize HTML, CSS e JavaScript para o Front-end, Node.js para o Back-end e SQL para o gerenciamento de dados. Foi uma ótima experiência para aplicar e integrar diferentes tecnologias.',
     image: ecoletaImage,
     links: [
-      { type: 'repositorio', url: 'https://github.com/gustavonbarboza/Ecoleta' },
       { type: 'demostracao', url: 'https://gustavonbarboza.github.io/Ecoleta/' },
+      { type: 'repositorio', url: 'https://github.com/gustavonbarboza/Ecoleta' },
     ],
   },
   {
@@ -66,8 +66,8 @@ export const projectsData = [
     details: 'O TrackFlix é uma aplicação web desenvolvida em React que permite aos usuários explorar informações sobre filmes, séries e pessoas (atores, diretores etc.) de forma simples e intuitiva. O projeto consome dados da API do The Movie Database (TMDB) e apresenta uma interface moderna, dinâmica e totalmente responsiva, com foco na experiência do usuário.',
     image: trackflixImage,
     links: [
-      { type: 'repositorio', url: 'https://github.com/gustavonbarboza/trackflix' },
       { type: 'demostracao', url: 'https://trackflix-rho.vercel.app/' },
+      { type: 'repositorio', url: 'https://github.com/gustavonbarboza/trackflix' },
     ],
   },
   {
