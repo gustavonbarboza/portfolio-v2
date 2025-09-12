@@ -9,9 +9,9 @@ import roomManagerImage from '../assets/images/projectImages/site-gerenciamento-
 export const projectsData = [
   {
     id: 1,
-    title: 'Linktree',
+    title: 'Cartão de Visitas Digital',
     highlight: 'Rocketseat',
-    details: 'Este projeto é uma versão personalizada do DevLinks, um agregador de links para usar como cartão de visitas online, desenvolvido com tecnologias WEB e promovido pela Rocketseat.',
+    details: 'Uma versão personalizada do DevLinks, um agregador de links para cartões de visita online. Este projeto foi desenvolvido com tecnologias web fundamentais (HTML, CSS e JavaScript) e seguiu o padrão de boas práticas do curso da Rocketseat.',
     image: linktreeImage,
     links: [
       { type: 'demostracao', url: 'https://gustavonbarboza.github.io/Projeto-Linktree/' },
@@ -20,9 +20,9 @@ export const projectsData = [
   },
   {
     id: 2,
-    title: 'Ecoleta',
+    title: 'Plataforma de Coleta de Resíduos',
     highlight: 'NLW',
-    details: 'Esse projeto desenvolvido no NLW da Rocketseat, focado em criar uma plataforma de coleta de resíduos. Utilize HTML, CSS e JavaScript para o Front-end, Node.js para o Back-end e SQL para o gerenciamento de dados. Foi uma ótima experiência para aplicar e integrar diferentes tecnologias.',
+    details: 'Plataforma web para conectar coletores e pontos de coleta de resíduos. O projeto é full stack, utilizando HTML, CSS e JavaScript no front-end e Node.js com SQL no back-end. Desenvolvido durante o NLW da Rocketseat, serviu para aplicar conceitos de integração entre diferentes tecnologias.',
     image: ecoletaImage,
     links: [
       { type: 'demostracao', url: 'https://gustavonbarboza.github.io/Ecoleta/' },
@@ -31,9 +31,9 @@ export const projectsData = [
   },
   {
     id: 3,
-    title: 'Sistema de Gerenciamento de Biblioteca (C)',
+    title: 'Gerenciador de Biblioteca',
     highlight: 'Faculdade',
-    details: 'Fiz esse sistema em um projeto da faculdade, na matéria de Estrutura de Dados. Este é um sistema simples de gerenciamento de biblioteca desenvolvido em linguagem C. O projeto permite cadastrar, buscar, editar e excluir livros, utilizando estruturas (structs), arrays dinâmicos, ponteiros, funções e também salva os dados em um arquivo .txt.',
+    details: 'Sistema de gerenciamento de biblioteca simples, desenvolvido para a disciplina de Estrutura de Dados. O projeto, implementado em linguagem C, permite cadastrar, buscar, editar e excluir livros. Utiliza conceitos de structs, arrays dinâmicos e ponteiros, com persistência de dados em arquivos .txt.',
     image: libraryImage,
     links: [
       { type: 'repositorio', url: 'https://github.com/gustavonbarboza/Library-Management-C-' },
@@ -41,9 +41,9 @@ export const projectsData = [
   },
   {
     id: 4,
-    title: 'Site de Blog para um Psicólogo',
+    title: 'Blog e Portfólio para Psicólogo',
     highlight: 'Freelance',
-    details: 'Fiz esse projeto simples de um blog/portfólio para um psicólogo que queria um site funcional e profissional. A ideia era ter um espaço onde ele pudesse divulgar e vender seus livros, mostrar suas palestras, atrair novos clientes, postar artigos no blog e apresentar melhor o seu trabalho.',
+    details: 'Desenvolvimento de um blog e portfólio funcional para um profissional de psicologia. O site foi projetado para divulgar e vender livros, exibir palestras e atrair novos clientes. A plataforma permite a publicação de artigos e apresenta o trabalho de forma profissional e organizada.',
     image: blogImage,
     links: [
       { type: 'demostracao', url: 'https://joaowesleypsicologo.com.br/' },
@@ -51,9 +51,9 @@ export const projectsData = [
   },
   {
     id: 5,
-    title: 'Site Mariana Melo Atelier',
+    title: 'E-commerce para Atelier de Joias',
     highlight: 'Freelance',
-    details: 'Fiz esse site no WordPress do zero, totalmente personalizado de acordo com as necessidades da cliente, que trabalha com a criação e venda de joias artesanais de todos os tipos. Cuidei de toda a parte de integração com o WooCommerce para gerenciar os produtos e pedidos. Também implementei o sistema de pagamento online usando a plataforma Pagar.me.',
+    details: 'E-commerce personalizado, construído em WordPress, para um atelier de joias artesanais. O projeto envolveu a integração com o WooCommerce para gerenciamento de produtos e pedidos. A implementação de um sistema de pagamento online usando a plataforma Pagar.me foi crucial para a funcionalidade completa da loja.',
     image: atelierImage,
     links: [
       { type: 'demostracao', url: 'https://marianameloatelier.com.br/' },
@@ -61,9 +61,9 @@ export const projectsData = [
   },
   {
     id: 6,
-    title: 'Site TrackFlix em React',
+    title: 'Aplicação Web TrackFlix',
     highlight: 'Pessoal',
-    details: 'O TrackFlix é uma aplicação web desenvolvida em React que permite aos usuários explorar informações sobre filmes, séries e pessoas (atores, diretores etc.) de forma simples e intuitiva. O projeto consome dados da API do The Movie Database (TMDB) e apresenta uma interface moderna, dinâmica e totalmente responsiva, com foco na experiência do usuário.',
+    details: 'Aplicação web desenvolvida em React para explorar filmes, séries e informações de atores. O projeto consome dados da API The Movie Database (TMDB) e apresenta uma interface moderna, dinâmica e totalmente responsiva, com foco na experiência do usuário e na usabilidade da plataforma.',
     image: trackflixImage,
     links: [
       { type: 'demostracao', url: 'https://trackflix-rho.vercel.app/' },
@@ -72,9 +72,9 @@ export const projectsData = [
   },
   {
     id: 7,
-    title: 'Gerenciamento de sala',
+    title: 'Gerenciador de Salas',
     highlight: 'Faculdade',
-    details: 'Este projeto é uma aplicação web para gerenciamento de salas, reservas, usuários e status, desenvolvida para a disciplina de PISC na Unieuro.',
+    details: 'Aplicação web full stack para gerenciar salas, usuários, reservas e status. O projeto, desenvolvido para a disciplina de PISC na Unieuro, permite um controle completo de reservas, demonstrando habilidades em desenvolvimento do front-end ao back-end e gerenciamento de banco de dados.',
     image: roomManagerImage,
     links: [
       { type: 'repositorio', url: 'https://github.com/gustavonbarboza/unieuro-pisc-202502-room-manager' },
