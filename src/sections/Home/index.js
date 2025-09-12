@@ -5,7 +5,7 @@ import {
 } from './styles';
 import { Container } from '../../components/Container';// Padding Global
 
-import linkedinIcon from '../../assets/images/icons/linkedin-icon.svg';
+import linkedinIcon from '../../assets/images/icons/linkedin-icon-green.svg';
 import resumeIcon from '../../assets/images/icons/resume-icon.svg';
 
 import Button from '../../components/ButtonHome';
