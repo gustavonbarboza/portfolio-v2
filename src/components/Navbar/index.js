@@ -14,7 +14,7 @@ const navLinks = [
   { id: 'home', url: '#home', icon: homeIcon, alt: 'Home' },
   { id: 'career', url: '#career', icon: userIcon, alt: 'Carreira' },
   { id: 'projects', url: '#projects', icon: fileIcon, alt: 'Projetos' },
-  { id: 'contact', url: '#contact', icon: usersIcon, alt: 'Contato' },
+  { id: 'social-media', url: '#social-media', icon: usersIcon, alt: 'Midias Sociais' },
 ];
 
 function Navbar() {
