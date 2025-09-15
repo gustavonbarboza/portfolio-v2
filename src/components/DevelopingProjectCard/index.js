@@ -23,7 +23,7 @@ function DevelopingProjectCard() {
   const screenshots = data.images.slice(1, 5);
 
   return (
-    <BackgroundContainer backgroundImage={backgroundImageUrl}>
+    <BackgroundContainer $backgroundImage={backgroundImageUrl}>
       <Container>
         <CardContainer>
 
