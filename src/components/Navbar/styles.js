@@ -34,7 +34,7 @@ export const NavItem = styled.li`
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 
-  ${({ active, theme }) => active && `
+  ${({ $active, theme }) => $active && `
     background-color: ${theme.secondaryVariants.transparent02};
     border-bottom: 2px solid ${theme.secondary};
   `}

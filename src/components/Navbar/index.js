@@ -43,7 +43,7 @@ function Navbar() {
     <NavContainer>
       <NavList>
         {navLinks.map((link) => (
-          <NavItem key={link.id} active={link.id === activeLink}>
+          <NavItem key={link.id} $active={link.id === activeLink}>
             <NavLink href={link.url}>
               <NavIcon src={link.icon} alt={link.alt} />
             </NavLink>
