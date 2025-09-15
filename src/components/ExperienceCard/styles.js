@@ -11,7 +11,7 @@ export const CardButton = styled.button`
   border-left: 2px solid ${({ theme }) => theme.text.muted};
   transition: all 0.3s ease-in-out;
 
-  ${({ active, theme }) => active && `
+  ${({ $active, theme }) => $active && `
     background-color: ${theme.primaryVariants.transparent02};
     border-left-color: ${theme.primary};
   `}

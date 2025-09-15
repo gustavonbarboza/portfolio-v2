@@ -55,7 +55,7 @@ function Career({ id }) {
                 key={exp.id}
                 title={exp.title}
                 period={exp.period}
-                active={exp.id === activeExperience.id}
+                $active={exp.id === activeExperience.id}
                 onClick={() => handleCardClick(exp)}
               />
             ))}
