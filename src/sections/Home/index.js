@@ -20,10 +20,10 @@ function Home({ id }) {
         <Title>Full Stack Developer | UI UX</Title>
 
         <ButtonContainer>
-          <Button outline variant="primary" iconSrc={linkedinIcon} href="#">
+          <Button outline variant="primary" iconSrc={linkedinIcon} href="https://www.linkedin.com/in/gustavonbarboza/">
             Me envie uma conexão no LikedIn
           </Button>
-          <Button variant="secondary" iconSrc={resumeIcon} href="#">
+          <Button variant="secondary" iconSrc={resumeIcon} href="https://docs.google.com/document/d/1ZxSrhqrdSl1kaZ6OBtAcpYO4LkBO-k2RLvZEPZQNF0Q/export?format=pdf">
             Download do Currículo
           </Button>
         </ButtonContainer>

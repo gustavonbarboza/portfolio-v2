@@ -5,7 +5,6 @@ import {
   CardContainer,
   ImageGrid,
   ProjectDetails,
-  Buttons,
   Image,
   ImageWrapper,
   Title,
@@ -14,7 +13,8 @@ import {
 } from './styles';
 import { Container } from '../Container';
 
-import ButtonProject from '../ButtonProject';
+// import { Button } from './styles';
+// import ButtonProject from '../ButtonProject';
 
 function DevelopingProjectCard() {
   const data = projectDevelopingData;
@@ -35,7 +35,7 @@ function DevelopingProjectCard() {
 
             <Title>{data.title}</Title>
             <Details>{data.details}</Details>
-            <Buttons>
+            {/* <Buttons>
               {data.links.map((link) => (
                 <ButtonProject
                   key={link.type}
@@ -43,7 +43,7 @@ function DevelopingProjectCard() {
                   href={link.url}
                 />
               ))}
-            </Buttons>
+            </Buttons> */}
           </ProjectDetails>
 
           <ImageGrid>
