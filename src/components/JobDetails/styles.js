@@ -13,15 +13,29 @@ export const Title = styled.h3`
 export const Period = styled.p`
   display: flex;
   align-items: center;
-  gap: 13px;
+  gap: 18px;
   font-size: 15px;
   color: ${({ theme }) => theme.text.muted};
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 
   img {
     width: 15px;
     height: 15px;
+  }
+`;
+
+export const Company = styled.p`
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  font-size: 15px;
+  color: ${({ theme }) => theme.text.muted};
+  margin-bottom: 15px;
+
+  img {
+    width: 19px;
+    height: 16px;
   }
 `;
 

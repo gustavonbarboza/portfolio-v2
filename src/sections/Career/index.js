@@ -41,6 +41,7 @@ function Career({ id }) {
             <JobDetails
               title={activeExperience.title}
               period={activeExperience.period}
+              company={activeExperience.company}
               description={activeExperience.details}
               skills={activeExperience.skills}
             />
