@@ -8,7 +8,7 @@ export const projectDevelopingData = {
   id: 1,
   title: 'Sistema Uniser - UNB ',
   details: 'O sistema da Uniser/UnB será uma plataforma digital que centralizará a gestão acadêmica, administrativa e financeira. Ele substituirá processos manuais, permitindo o cadastro de diversos perfis (alunos, professores, etc.), o controle de acesso, a gestão de frequência e a emissão de relatórios, tudo de forma acessível e em conformidade com a LGPD.',
-  highlight: 'Em deselvimento',
+  highlight: 'Em desenvolvimento',
   // links: [
   //   { type: 'demostracao', url: 'https://www.google.com' },
   //   { type: 'repositorio', url: 'https://github.com/seu-usuario/seu-repositorio' },
