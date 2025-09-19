@@ -12,6 +12,12 @@ export const NavContainer = styled.nav`
   background-color: ${({ theme }) => theme.secondaryBackground};
   border-radius: 10px;
   padding: 10px;
+
+  @media (max-width: 768px) {
+    height: 60px;
+    width: 220px;
+    padding: 8px;
+  }
 `;
 
 export const NavList = styled.ul`
@@ -22,6 +28,10 @@ export const NavList = styled.ul`
   margin: 0;
   gap: 10px;
   height: 100%;
+
+  @media (max-width: 768px) {
+    gap: 8px;
+  }
 `;
 
 export const NavItem = styled.li`
@@ -50,4 +60,9 @@ export const NavIcon = styled.img`
   width: 21px;
   height: 19px;
   object-fit: contain;
+
+  @media (max-width: 768px) {
+    width: 18px;
+    height: 16px;
+  }
 `;

@@ -9,6 +9,10 @@ export const CareerSection = styled.section`
 
   background: linear-gradient(270.56deg, rgba(90, 224, 196, 0) 14.82%, rgba(90, 224, 196, 0.2) 99.53%),
   #0A192F;
+
+  @media (max-width: 768px) {
+    padding: 100px 0;
+  }
 `;
 
 export const SectionTitle = styled.h2`
@@ -22,11 +26,21 @@ export const Subtitle = styled.h1`
   color: ${({ theme }) => theme.primary};
   font-size: 40px;
   margin-bottom: 80px;
+
+  @media (max-width: 768px) {
+    font-size: 35px;
+    margin-bottom: 50px;
+  }
 `;
 
 export const ContentWrapper = styled.div`
   display: flex;
   gap: 89px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 50px;
+  }
 `;
 
 export const MainContent = styled.div`

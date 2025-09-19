@@ -7,7 +7,11 @@ export const SocialMediaContainer = styled.section`
   border-image-source: linear-gradient(90deg, #5AE0C4 0%, #317A6B 27.88%, #3B9381 58.17%, #46AD97 87.02%);
   border-image-slice: 1;
 
-  background-color: ${({ theme }) => theme.surface}
+  background-color: ${({ theme }) => theme.surface};
+
+  @media (max-width: 768px) {
+    padding: 50px 0;
+  }
 `;
 
 export const SectionTitle = styled.h2`
@@ -21,6 +25,10 @@ export const SectionTitle = styled.h2`
 export const Subtitle = styled.h1`
   color: ${({ theme }) => theme.primary};
   font-size: 40px;
+
+  @media (max-width: 768px) {
+    font-size: 35px;
+  }
 `;
 
 export const Buttons = styled.div`
@@ -53,5 +61,10 @@ export const FooterText = styled.p`
 
   strong {
     font-weight: 500;
+  }
+
+
+  @media (max-width: 768px) {
+    font-size: 16px;
   }
 `;

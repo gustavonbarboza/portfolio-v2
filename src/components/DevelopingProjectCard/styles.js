@@ -30,6 +30,7 @@ export const CardContainer = styled.div`
 
   @media (max-width: 768px) {
     flex-direction: column;
+    margin: 100px 0;
   }
 `;
 
@@ -37,23 +38,24 @@ export const ProjectDetails = styled.div`
   flex: 1;
 `;
 
-export const Highlight = styled.div`
-  display: flex;
-
-  p {
-    background-color: ${({ theme }) => theme.primaryVariants.transparent05};
-    color: ${({ theme }) => theme.text.light};
-    border-radius: 20px;
-    padding: 10px 20px;
-    font-size: 15px;
-    font-weight: 500;
-  }
+export const Highlight = styled.p`
+  background-color: ${({ theme }) => theme.primaryVariants.transparent05};
+  color: ${({ theme }) => theme.text.light};
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 500;
+  width: fit-content; /* Garante que o fundo se ajuste ao texto */
 `;
 
 export const Title = styled.h2`
   color: ${({ theme }) => theme.text.light};
   font-size: 40px;
   margin-top: 30px;
+
+  @media (max-width: 768px) {
+    font-size: 35px;
+  }
 `;
 
 export const Details = styled.p`
@@ -73,23 +75,41 @@ export const ImageGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 12px;
-  grid-auto-rows: 164px;
   align-self: center;
 
   @media (max-width: 768px) {
-    grid-template-columns: 1fr;
-    grid-auto-rows: auto;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 16px;
+
+  &::-webkit-scrollbar {
+    height: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: ${({ theme }) => theme.secondaryVariants.transparent02};
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: ${({ theme }) => theme.primary};
+    border-radius: 4px;
+    border: 2px solid transparent;
+  }
   }
 `;
 
 export const ImageWrapper = styled.div`
   padding: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border: 2px solid ${({ theme }) => theme.primary};
   border-radius: 10px;
   overflow: hidden;
+
+  @media (max-width: 768px) {
+    flex: 0 0 80%;
+    scroll-snap-align: center;
+  }
 `;
 
 export const Image = styled.img`

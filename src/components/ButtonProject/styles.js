@@ -25,9 +25,20 @@ export const StyledButton = styled.a`
   &:hover {
     opacity: 0.8;
   }
+
+  @media (max-width: 768px) {
+    padding: 12px 20px;
+    font-size: 16px;
+    gap: 8px;
+  }
 `;
 
 export const Icon = styled.img`
   width: 18px;
   height: 18px;
+
+  @media (max-width: 768px) {
+    width: 16px;
+    height: 16px;
+  }
 `;

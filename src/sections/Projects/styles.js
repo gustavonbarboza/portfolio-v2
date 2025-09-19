@@ -41,4 +41,8 @@ export const Subtitle = styled.h1`
   color: ${({ theme }) => theme.primary};
   font-size: 40px;
   margin-bottom: 50px;
+
+  @media (max-width: 768px) {
+      font-size: 35px;
+  }
 `;

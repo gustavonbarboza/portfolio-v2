@@ -12,12 +12,23 @@ export const ButtonWrapper = styled.a`
   min-width: 250px;
   min-height: 80px;
   flex: 1;
+
+  @media (max-width: 768px) {
+    padding: 10px 15px;
+    min-height: auto;
+    border-width: 3px;
+  }
 `;
 
 export const Icon = styled.img`
   width: 53px;
   height: 53px;
   object-fit: contain;
+
+  @media (max-width: 768px) {
+    width: 40px;
+    height: 40px;
+  }
 `;
 
 export const TextContainer = styled.div`
@@ -29,10 +40,18 @@ export const Title = styled.h4`
   color: ${({ theme }) => theme.primary};
   font-size: 22px;
   margin: 0;
+
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
 `;
 
 export const Subtitle = styled.p`
   color: ${({ theme }) => theme.secondary};
   font-size: 16px;
   margin: 0;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
 `;

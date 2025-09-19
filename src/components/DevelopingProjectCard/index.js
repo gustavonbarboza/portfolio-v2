@@ -13,7 +13,7 @@ import {
 } from './styles';
 import { Container } from '../Container';
 
-// import { Button } from './styles';
+// import { Buttons } from './styles';
 // import ButtonProject from '../ButtonProject';
 
 function DevelopingProjectCard() {
@@ -29,9 +29,7 @@ function DevelopingProjectCard() {
 
           <ProjectDetails>
 
-            <Highlight>
-              <p>{data.highlight}</p>
-            </Highlight>
+            <Highlight>{data.highlight}</Highlight>
 
             <Title>{data.title}</Title>
             <Details>{data.details}</Details>

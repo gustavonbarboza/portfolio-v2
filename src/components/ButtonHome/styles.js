@@ -20,9 +20,20 @@ export const StyledButton = styled.a`
   &:hover {
     background-color: rgba(90, 224, 196, 0.1);
   }
+
+  @media (max-width: 768px) {
+    font-size: 18px;
+    padding: 15px;
+    gap: 15px;
+  }
 `;
 
 export const Icon = styled.img`
   width: 18px;
   height: 18px;
+
+  @media (max-width: 768px) {
+    width: 16px;
+    height: 16px;
+  }
 `;
